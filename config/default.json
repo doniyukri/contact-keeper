@@ -1,4 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://admin-cs:m08eGqaSZEhZkPxY@cluster0.qfhsq.mongodb.net/contactSaverDB?retryWrites=true&w=majority",
-	"jwtSecret": "secret"
+	"mongoURI": process.env.REACT_APP_MONGO_URI,
+	"jwtSecret": process.env.REACT_APP_JWT_SECRET
 }
